@@ -13,7 +13,7 @@ from urllib.request import ProxyHandler, build_opener
 
 cache_path = "epub/cache"
 book_path = "epub/book"
-proxies = {'http': 'http://127.0.0.1:19180', 'https': 'https://127.0.0.1:19180'}
+proxies = {'http': 'http://127.0.0.1:7890', 'https': 'https://127.0.0.1:7890'}
 urlOpener = build_opener(ProxyHandler(proxies))
 
 
